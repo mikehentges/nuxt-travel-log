@@ -4,4 +4,7 @@ import withNuxt from './.nuxt/eslint.config.mjs'
 export default withNuxt({
   // Your custom configs here
   ignores: ['.pnpm-store/**'],
+  rules: {
+    'ts/no-redeclare': 'off',
+  },
 })
