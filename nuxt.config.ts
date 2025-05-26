@@ -3,6 +3,7 @@ import tailwindcss from '@tailwindcss/vite'
 import './lib/env'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// noinspection JSUnusedGlobalSymbols
 export default defineNuxtConfig({
   modules: [
     '@nuxthub/core',
